@@ -1,0 +1,82 @@
+/*********** GERAL ***********/
+body {
+    background: hsl(217, 28%, 15%) !important;
+    color: #fff !important;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+    color: #fff !important;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+header {
+    background-color: hsl(219, 30%, 18%);
+}
+
+h1 {
+    font-size: 23px !important;
+    font-weight: bold !important;
+    line-height: 35px !important;
+}
+
+p {
+    font-size: 2.2vh !important;
+    font-weight: lighter;
+}
+
+#intro {
+    background: hsl(219, 30%, 18%) url('../images/bg-curvy-mobile.svg') no-repeat 0px 200px ;
+    height: 340px;
+}
+
+.content {
+    position: relative;
+    display: block;
+}
+
+.description {
+    position: relative;
+    top: -90px;
+    margin: 0;
+    justify-items: center;
+}
+
+.slogan, .paragraph {
+     text-align: center;
+}
+
+#btn-started {
+    width: 230px;
+    height: 45px;
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    color: #fff;
+    font-weight: bold;
+    border-radius: 40px;
+}
+
+/*********** MOBILE ***********/
+
+@media (max-width: 375px) {
+    body{
+        background: hsl(218, 28%, 13%) !important;
+    }
+
+    #intro img {
+        width: 310px;
+        display: block;
+        margin: auto;
+    }
+}
+
+@media (max-width: 375px) and (min-width: 3700) {
+    p {
+        font-size: 2.0vh !important;
+        font-weight: lighter;
+    }
+}
