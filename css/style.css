@@ -25,9 +25,18 @@ h1 {
     line-height: 35px !important;
 }
 
+h2 {
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+
 p {
     font-size: 2.2vh !important;
     font-weight: lighter;
+}
+
+.task p, .stay-productive p {
+    font-size: 13px !important;
 }
 
 #intro {
@@ -60,6 +69,14 @@ p {
     border-radius: 40px;
 }
 
+.task-title {
+    margin-bottom: 10px;
+}
+
+.task {
+    margin-top: 60px;
+}
+
 /*********** MOBILE ***********/
 
 @media (max-width: 375px) {
@@ -72,11 +89,14 @@ p {
         display: block;
         margin: auto;
     }
-}
 
-@media (max-width: 375px) and (min-width: 3700) {
-    p {
-        font-size: 2.0vh !important;
-        font-weight: lighter;
+    .stay-productive img {
+        width: 300px;
+        margin-top: 100px;
     }
+
+    .stay-productive p, .stay-productive h2 {
+       text-align: initial;
+    }
+    
 }
